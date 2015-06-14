@@ -129,19 +129,19 @@ p {
     font-size: 30px;
 }
 .subheading { 
-    font-size: 14px;
+    font-size: 18px;
     line-height: 20px;
-    font-weight: 400;
-    margin-bottom: 42px;
+    font-weight: 100;
+    margin-bottom: 22px;
 }
 .subheading:after {
     position: relative;
     display: block;
     content: "";
     height: 2px; 
-    margin: 20px auto 20px;
+    margin: 10px auto 10px;
     width: 115px;  
-    background: #7a7a7a;
+    background: #616161;
 }
 .subheading.grey:after { 
     background: #fff!important;
@@ -224,7 +224,7 @@ p {
     background-image: url(../img/backgrounds/bg-home-fullscreen.jpg);
 } 
 #home-parallax-fullwidth {
-    background-image: url(../img/backgrounds/bg-home-fullscreen.jpg);
+    background-image: url("../img/backgrounds/pilotoBackground.jpg");
 }
 #home-landing {
     background-image: url(../img/backgrounds/bg-home-fullscreen.jpg);
@@ -236,10 +236,10 @@ p {
     background-image: url(../img/backgrounds/bg-2.jpg);
 }
 .parallax-section-3 {
-    background-image: url(../img/backgrounds/bg-3.jpg);
+    background-image: url("../img/backgrounds/backgroundMorro.jpg");
 }
 .parallax-section-4 {
-    background-image: url(../img/backgrounds/bg-4.jpg);
+    background-image: url("../img/backgrounds/get_connected.JPG");
 }
 .parallax-section-5 {
     background-image: url(../img/backgrounds/bg-5.jpg);
@@ -567,17 +567,18 @@ nav {
 }
 .navbar-default .navbar-right {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 12px;
+	font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
 	height: 100%;
 	margin-top: 10px;
     margin-bottom: 10px;
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    -o-transition: all 0.4s ease;
-    -ms-transition: all 0.4s ease;
-    transition: all 0.4s ease;
+    text-align: center;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 .navbar-alt .navbar-right {
 	margin-top: 35px;
@@ -1014,13 +1015,13 @@ nav {
     }
     .back-icon {
         z-index: -1;
-        color: #f8f8f8;
+        color: #fafafa;
         position: absolute;
         padding-left: 40px;
-        left: 0;
+        left: 3;
         top: 0;
-        width: 134px;
-        height: 134px;
+        width: 175px;
+        height: 155px;
         line-height: 134px;
         font-size: 134px;
     }
@@ -1036,10 +1037,10 @@ nav {
         padding-left: 30px;
         left: 0;
         top: 0;
-        width: 80px;
-        height: 80px;
-        line-height: 80px;
-        font-size: 80px;
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+        font-size: 100px;
     }
 }
 .feature-info h4 {
@@ -1067,6 +1068,7 @@ nav {
 .feature-description {
     line-height: 23px;
     padding-right: 10px;
+    color: #5A5A5A;
     
 }
 .ion-2-5x {
@@ -1076,6 +1078,16 @@ nav {
     margin-top: 40px;
 }
 
+.description{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1c1c1c;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-top: 0px;
+}
 /*----- About Section -----*/
 #about {
     padding-top: 60px;
@@ -1670,8 +1682,8 @@ blockquote strong {
 
 /*----- Get Connected -----*/
 #get-connected {
-    padding-top: 75px;
-    padding-bottom: 70px;
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
 .connected-icon a span {
     display: block; 
@@ -1686,12 +1698,12 @@ blockquote strong {
     padding: 15px 40px;
 } 
 .connected-icon a h4 {
-    font-size: 15px;
+    font-size: 18px;
     letter-spacing: 1px;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 }
 .connected-icon a .grey {
-    font-size: 13px;
+    font-size: 18px;
 }
 .connected-icon a .icon {
     line-height: 1!important;
@@ -2295,11 +2307,11 @@ border-bottom:1px dotted #ccc;
 .footer-widgets {
     background-color: #252525;
     color: #7e7e7e;
-    padding: 55px 0px 0 0;
+    padding: 20px 0px 0 0;
     margin-bottom: 0px
 }
 .col-footer {
-    margin-bottom: 55px;
+    margin-bottom: 20px;
 }
 @media (max-width:768px) {
     .col-twitter {
@@ -2348,7 +2360,7 @@ footer .contact-details {
     line-height: 26px;
     color: #8C8989;
 }
-footer #social-icons {
+footer #icon-laptop {
     list-style: none;
     float: right;
     margin: 0;
@@ -2857,7 +2869,7 @@ ul.caret-list li:before {
     color: #fff;
 }
 .blog-widget-container {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 .form-control:focus {
     border-color: #3a3a3a;

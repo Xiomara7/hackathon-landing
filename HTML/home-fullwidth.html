@@ -11,7 +11,7 @@
         <link href="css/style.css" rel="stylesheet" type="text/css" />
         
         <!-- Skin Color -->
-        <link rel="stylesheet" href="css/colors/pink.css" id="color-skins"/>
+        <link rel="stylesheet" href="css/colors/pink2.css" id="color-skins"/>
         
 	</head>
 	<body>
@@ -28,8 +28,9 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					    </button>
-                        <a class="navbar-brand to-top" rel="home" href="#">
-                        	<img src="img/assets/logo-white.png" class="logo-big">
+                        <!-- <a class="navbar-brand to-top" rel="home" href="#"> -->
+                        <a class="navbar-brand to-top">
+                        	<img src="img/assets/logo-white2.png" class="logo-big">
                             <img src="img/assets/logo-dark.png" class="logo-small">
                         </a>
 					</div>
@@ -38,13 +39,16 @@
                     <div class="collapse navbar-collapse" id="main-nav">
                         <ul class="nav navbar-nav  navbar-right">
                             
-                            <li><a class="to-top">Home</a></li>
-                            <li class="to-section"><a href="#about">About Us</a></li>
-                            <li class="to-section"><a href="#prizes">Prizes</a></li>
-                            <li class="to-section"><a href="#sponsors">Sponsor us</a></li>    
-                            <li class="to-section"><a href="#contact">Contact</a></li>
-                            <li><a class="social-icon" href="#"><i class="icon icon-social-twitter"></i></a></li>
-                            <li><a class="social-icon" href="#"><i class="icon icon-social-facebook"></i></a></li>
+                            <li class="to-top"> <a href="home-fullwidth.html">Home </a></li>
+                            <li class="to-section"><a href="#features"> About </a></li>
+                            <!-- 
+                            <li class="to-section"><a href="#about"> Location </a></li>
+                            <li class="to-section"><a href="#prizes"> Prizes </a></li> 
+                            <li class="to-section"><a href="#prizes"> FAQ </a></li>-->
+                            <li class="to-section"><a href="more-info.html"> Sponsor us </a></li>    
+                            <li class="to-section"><a href="#contact"> Contact </a></li>
+                            <li><a class="social-icon" href="https://twitter.com/IncludeGirls"><i class="icon icon-social-twitter"></i></a></li>
+                            <li><a class="social-icon" href="https://www.facebook.com/includeGirls?fref=ts"><i class="icon icon-social-facebook"></i></a></li>
                       </ul>
                     </div><!-- /.navbar-collapse -->
 				</div><!-- /.container -->
@@ -57,7 +61,7 @@
             <div class="home-container text-center op-1">
             	<div class="home-title">
                 	<div>
-                        <h1 class="white wow fadeInDown">#INCLUDE_A_THON</h1>
+                        <h1 class="white wow fadeInDown">#INCLUDE "A_THON"</h1>
                         <p class="home-subheading wow fadeInDown">2015 · HACKATHON · FASHION SHOW · JOB FAIR</p>
                     </div>
             	</div>
@@ -77,33 +81,36 @@
                     <div class="row features-row wow fadeInUp">
                         
                         <div class="col-md-4 col-sm-12 feature-column">
+                           
                             <div class="feature-icon">
-                                <i class="icon-eyeglasses size-2x highlight"></i>
-                                <i class="icon-eyeglasses back-icon"></i>
+                                <img src="img/portfolio/buttons/laptop_mini.png" class="icon-laptop size-2x " > </img>
+                                <img src="img/portfolio/buttons/laptop_Big3.png" class="icon-laptop back-icon"> </img>
                             </div>
+                                
                             <div class="feature-info">
-                                <h4>Why Hackathon?</h4>
-                                <p class="feature-description">Vivamus molestie phasellus enim sed orci eu pharetra. Donec posuere nunc vitae tortor sagittis feugiat in non massa.</p>
+                                <h4>Why a Hackathon?</h4>
+                                <p class="feature-description">We want to promote women to participate
+                                    in technical events and motivate them to show off their skills and ideas for new projects.</p>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-12 feature-column">
                             <div class="feature-icon">
-                                <i class="icon-lock-open size-2x highlight"></i>
-                                <i class="icon-lock-open back-icon"></i>
+                                <img src="img/portfolio/buttons/spotlight_icon_mini.png" class="icon-lock-open size-2x"></img>
+                                <img src="img/portfolio/buttons/spotlight_iconBig.png" class="icon-lock-open back-icon"></img>
                             </div>
                             <div class="feature-info">
-                                <h4>Why Fashion Show?</h4>
-                                <p class="feature-description">Vivamus molestie phasellus enim sed orci eu pharetra. Donec posuere nunc vitae tortor sagittis feugiat in non massa.</p>
+                                <h4>Why a Fashion Show?</h4>
+                                <p class="feature-description">We're trying to break the stereotype thinking that programers can't be into Fashion either!</p>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-12 feature-column">
                             <div class="feature-icon">
-                                <i class="icon-energy size-2x highlight"></i>
-                                <i class="icon-energy back-icon"></i>
+                                <img src="img/portfolio/buttons/document_icon_mini.png" class="icon-energy size-2x"></img>
+                                <img src="img/portfolio/buttons/document_icon_Big.png" class="icon-energy back-icon"></img>
                             </div>
                             <div class="feature-info">
-                                <h4>Why Job Fair?</h4>
-                                <p class="feature-description">Vivamus molestie phasellus enim sed orci eu pharetra. Donec posuere nunc vitae tortor sagittis feugiat in non massa.</p>
+                                <h4>Why a Job Fair?</h4>
+                                <p class="feature-description">We want that all our participants have access to network with companies and have the opportunity for possible hire. </p>
                             </div>
                         </div>
                                 
@@ -113,41 +120,43 @@
                         
                         <div class="col-md-4 col-sm-12 feature-column">
                             <div class="feature-icon">
-                                <i class="icon-settings size-2x highlight"></i>
-                                <i class="icon-settings back-icon"></i>
+                                <img src="img/portfolio/buttons/question_icon_mini.png" class="icon-laptop size-2x" > </img>
+                                <img src="img/portfolio/buttons/question_iconBig.png" class="icon-laptop back-icon"> </img>
                             </div>
+
                             <div class="feature-info">
-                                <h4>Why Hackathon?</h4>
-                                <p class="feature-description">Vivamus molestie phasellus enim sed orci eu pharetra. Donec posuere nunc vitae tortor sagittis feugiat in non massa.</p>
+                                <h4>But, what is a Hackathon?</h4>
+                                <p class="feature-description">#inlcude "A_THON" is an event where people with technical skills come together for 24 hours to create amazing projects. These projects are then judge by a group of tech proffessionals for the change to win cool prizes. <a href="https://medium.com/hackathons-anonymous/wtf-is-a-hackathon-92668579601">Click here to learn more</a></p>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-12 feature-column">
                             <div class="feature-icon">
-                                <i class="icon-book-open size-2x highlight"></i>
-                                <i class="icon-book-open back-icon"></i>
+                                <img src="img/portfolio/buttons/teams_icon_mini.png" class="icon-laptop size-2x" > </img>
+                                <img src="img/portfolio/buttons/teams_iconBig.png" class="icon-laptop back-icon"></img>
                             </div>
                             <div class="feature-info">
-                                <h4>Why Fashion Show?</h4>
-                                <p class="feature-description">Vivamus molestie phasellus enim sed orci eu pharetra. Donec posuere nunc vitae tortor sagittis feugiat in non massa.</p>
+                                <h4>Can I have teamates?</h4>
+                                <p class="feature-description">The teams can have from 2 to 4 members. Since we're trying to promote women to participate the teams MOST have at least 2 women in each team. Each team must bring their own computers. Programmers are recommended in each team but not mandatory. </p>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-12 feature-column">
                             <div class="feature-icon">
-                                <i class="icon-support size-2x highlight"></i>
-                                <i class="icon-support back-icon"></i>
+                                <img src="img/portfolio/buttons/student_icon_mini.png" class="icon-laptop size-2x" > </img>
+                                <img src="img/portfolio/buttons/student_icon_Big.png" class="icon-laptop back-icon"></img>
                             </div>
                             <div class="feature-info">
-                                <h4>Why Job Fair?</h4>
-                                <p class="feature-description">Vivamus molestie phasellus enim sed orci eu pharetra. Donec posuere nunc vitae tortor sagittis feugiat in non massa.</p>
+                                <h4>Who can participate?</h4>
+                                <p class="feature-description">We welcome college students from any university and degree. High school students can participate if they're 18 or older. We also welcome proffessionals to participate. For the people who are going to participate in the hackathon the admission is free. </p>
                             </div>
-                        </div>
-                        
+                        </div>   
                     </div>
                 </div>
-            </section>
+            </section>  
             <!--End Features Section -->
             
+
             <!-- Start About Section --> 
+                <!--
             <section id="prizes" class="parallax-section-1"> 
                 <div class="container">
                     <div class="row">
@@ -164,10 +173,11 @@
                 </div>
             </section>
             <hr>
+                -->
         	<!-- End About Section -->
             
             <!-- Start Skills Section -->
-            <section id="skills" class="parallax-section-2"> 
+            <!-- <section id="skills" class="parallax-section-2"> 
                 <div class="container">
                     <div class="row">
                         <div class="col-md-4 col-sm-12 skills-row">
@@ -201,11 +211,11 @@
                     
                     </div>
                 </div>
-            </section>
+            </section> -->
             <!-- End Skills Section -->
             
             <!-- Start Fun Facts Section -->
-            <section id="fun-facts">
+           <!-- <section id="fun-facts">
             	<div class="container">
                     
                 	<div class="counter-row row text-center wow fadeInUp">
@@ -236,7 +246,7 @@
                     </div> 
                         
                 </div>
-            </section>
+            </section> -->
             <!-- End Fun Facts Section --> 
             
             <!-- Start Quote Section -->    
@@ -291,7 +301,7 @@
                     
                     <div class="col-md-12 text-center">
                         <h3 class="section-title wow fadeInUp">Sponsors</h3> 
-                        <p class="subheading wow fadeInUp">Coming SOON!</p>
+                        <!-- <p class="subheading wow fadeInUp">Coming SOON!</p> -->
                     </div>
 
                     <div id="filters-container-fullwidth" class="cbp-l-filters-alignCenter wow fadeInUp">
@@ -303,22 +313,25 @@
 
                     <div id="grid-container-fullwidth" class="cbp-l-grid-fullScreen">
                         <ul>   
-                            
+                            <!-- Piloto Labs -->
                             <!-- CHANGE LAST WORD FOR ONE OF THE KEYWORDS (HACKATHON, FASHION, JOB) -->
                             <li class="cbp-item effect effects hackathon">
                                 <div class="img">
-                                    <img src="img/portfolio/1.jpg" class="img-responsive" alt="" />
+                                    <img src="img/portfolio/1_piloto.jpg" class="img-responsive" alt="" />
                                     <div class="overlay">
                                         <ul class="expand">
                                             <li class="cbp-l-caption-title">Piloto Labs</li>
-                                            <li class="cbp-l-caption-desc">community based non-profit organization comprised of over 15 grassroots organizations in the Puerto Rico startup and tech ecosystem</li>
+                                            <li class="cbp-l-caption-desc">Community based non-profit organization comprised of over 15 grassroots organizations in the Puerto Rico startup and tech ecosystem. </li>
                                             <li class="cbp-l-icon"><a href="img/portfolio/fullsize/1.jpg" class="cbp-lightbox" <i class="icon-magnifier"></i></a></li>
-                                            <li class="cbp-l-icon"><a href="projects/project1.html" class="cbp-singlePage"><i class="icon-link"></i></a></li>
+                                           
+                                            <li class="cbp-l-icon"><a href="http://www.piloto151.com"><i class="icon-link"> </i></a></li>
                                         </ul>
                                     </div>
                                 </div>
                             </li> 
                             
+                            <!-- Add more Sponsors here: 
+
                             <li class="cbp-item effect effects hackathon">
                                 <div class="img">
                                     <img src="img/portfolio/2.jpg" class="img-responsive" alt="" />
@@ -331,8 +344,8 @@
                                         </ul>
                                     </div>
                                 </div>
-                            </li>
-                            
+                            </li> 
+
                             <li class="cbp-item effect effects fashion">
                                 <div class="img">
                                     <img src="img/portfolio/3.jpg" class="img-responsive" alt="" />
@@ -389,6 +402,7 @@
                                 </div>
                             </li>
                             
+                            
                             <li class="cbp-item effect effects fashion">
                                 <div class="img">
                                     <img src="img/portfolio/8.jpg" class="img-responsive" alt="" />
@@ -403,6 +417,7 @@
                                 </div>
                             </li>
                             
+
                             <li class="cbp-item effect effects hackathon">
                                 <div class="img">
                                     <img src="img/portfolio/9.jpg" class="img-responsive" alt="" />
@@ -454,6 +469,7 @@
                                             <li class="cbp-l-caption-desc">Description</li>
                                             <li class="cbp-l-icon"><a href="img/portfolio/fullsize/12.jpg" class="cbp-lightbox"<i class="icon-magnifier"></i></a></li>
                                             <li class="cbp-l-icon"><a href="projects/project12.html" class="cbp-singlePage"><i class="icon-link"></i></a></li>
+                            -->
                                         </ul>
                                     </div>
                                 </div>
@@ -472,8 +488,8 @@
                     
                         <div class="col-md-12 text-center">
                             <h3 class="wow fadeInUp">FEEL LIKE SPONSORING US?</h3>
-                            <p class="wow fadeInUp">Vivamus a placerat ante. Duis vulputate nibh sit amet augue vehicula, mattis ni<br>viverra purus tristique. Proin commodo eu ipsum. </p>
-                            <a href="#more-info.html" class="btn btn-primary btn-scroll">See more info!</a>
+                            <p class="wow fadeInUp"> If you would like to sponsor our event, please click below. </p>
+                            <a href="more-info.html" class="btn btn-primary btn-scroll">See more info!</a>
                         </div>
                     
                     </div>
@@ -495,7 +511,7 @@
                         <ul class="connected-icons text-center">
                             
                             <li class="connected-icon">
-                                <a target="_blank" href="#">
+                                <a target="_blank" href="https://www.facebook.com/includeGirls?fref=ts">
                                     <span class="icon icon-social-facebook size-6x"></span>
                                     <h4 class="white">Facebook</h4>
                                     <span class="grey">Be Our Friend</span>
@@ -503,13 +519,14 @@
                             </li>
                             
                             <li class="connected-icon">
-                                <a target="_blank" href="#">
+                                <a target="_blank" href="https://twitter.com/IncludeGirls">
                                     <span class="icon icon-social-twitter size-6x"></span>
                                     <h4 class="white">Twitter</h4>
                                     <span class="grey">Follow Us</span>
                                 </a>
                             </li>
                             
+                            <!-- Instragam Icon (we dont have an Instragam account)
                             <li class="connected-icon">
                                 <a target="_blank" href="#">
                                     <span class="icon ion-social-instagram-outline size-6x"></span>
@@ -517,6 +534,7 @@
                                     <span class="grey">See Our Images</span>
                                 </a>
                             </li>
+                            -->
                         </ul>        
                     </div>  
                     
@@ -533,9 +551,11 @@
                             <h2 class="section-title wow fadeInUp">LET’S GET THINGS DONE, TOGETHER.</h2> 
                         </div>
                         
-                        <div class="col-md-6 col-md-offset-3 text-center wow fadeInUp">
+                        
+                         <div class="col-md-6 col-md-offset-3 text-center wow fadeInUp">
                             <div id="message"></div>
                             <!-- Contact Form will be functional only on your server. Upload to your server when testing. -->
+                            <!--
                             <form method="post" action="php/contact-form.php" name="contactform" id="contactform">
                                 <fieldset>
                                         <input name="name" type="text" id="name" placeholder="Name"/> 
@@ -547,11 +567,12 @@
                                 </fieldset>
                                 <input type="submit" class="submit" id="submit" value="Send Message" />
                             </form>
-                        </div>  
-                        
+                        </div>
+                        -->  
                         <div class="col-md-12 text-center wow fadeInUp" style="margin-top:20px;">
                             <p>We would love to hear from you so let's get in touch!</p>
                             <h4>CONTACT US TODAY!</h4>
+                            <h4 style="color:blue"><font size="5">include.girls.uprrp.edu@gmail.com</font></h4> 
                         </div>
                                                  
                     </div>
@@ -562,7 +583,14 @@
             <footer id="footer">
                 <div class="footer-widgets">
                     <div class="container"> 
+                            <div class="col-md-5 col-sm-2 col-footer">
+                                <h4>About Include Girls</h4>
+                                <p>We are a group of students from the University of Puerto Rico, wanting to offer support and guidance to women interested in Computer Science.</p>
+                                <p>Our goal is to outreach not only women, but a minority represented in our science. We don't segregate ourselves, we support diversity.
+                                We also aim to change the erroneous image that the students can have about Computer Science. </p>
+                            </div>
                             
+                            <!--
                             <div class="col-md-3 col-sm-6 col-twitter">
                                 <h4>Latest Tweet</h4>
                                 <div class="tweet"></div> 
@@ -575,16 +603,11 @@
                                         <li><p><i class="icon ion-android-mail highlight"></i> <a href="includegirls...">includegirls...</a></p></li>
                                     </ul>
                                 </div>
-                            </div>
-                            
-                            <div class="col-md-3 col-sm-6 col-footer">
-                                <h4>About Include Girls</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in euismod nisi.</p>
-                                <p>Cras at ultrices erat, sed vulputate eros. Nunc at augue gravida est fermentum vulputate. Pellentesque et ipsum in dui malesuada tempus. Donec pellentesque.</p>
-                            </div>
-                             
+                            </div> 
+                            -->    
                     </div>
-                </div><!-- End Footer Widgets -->
+                </div>
+                <!-- End Footer Widgets -->
                 
 				<div class="footer-copyright">
 					<div class="container">
@@ -593,10 +616,7 @@
 							<div class="col-md-6 col-sm-12">
 							</div>
 							<div class="col-md-6 col-sm-12">
-				                <ul id="social-icons">
-						            <li><a href="#"><i class="icon ion-social-twitter"></i></a></li> 	
-                                    <li><a href="#"><i class="icon ion-social-facebook"></i></a></li> 
-                                    <li><a href="#"><i class="icon ion-social-instagram-outline"></i></a></li> 
+				                <ul> 
                                     
                                 </ul>
 							</div>
