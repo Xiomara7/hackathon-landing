@@ -1,1 +1,1 @@
-web: gunicorn hackathon-landing:app
+web: gunicorn hello:app --log-file=-
