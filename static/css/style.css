@@ -206,6 +206,7 @@ p {
 .white {
     color: #fff;
 }
+/*Color for words inside tables: Logo on web, etc; */
 .grey {
     color: #d3d3d3;
 }
@@ -245,7 +246,7 @@ p {
     background-image: url(../img/backgrounds/bg-5.jpg);
 }
 .parallax-section-6 {
-    background-image: url(../img/backgrounds/bg-6.jpg);
+    background-image: url("../img/backgrounds/dark_gray.png");
 }
 .parallax-section-7 {
     background-image: url(../img/backgrounds/bg-7.jpg);
@@ -277,6 +278,7 @@ p {
     display: block;
     position: relative;
 }
+
 #home-parallax-fullwidth {
     background-position: center 0%;
 	background-size: cover;
@@ -483,10 +485,11 @@ p {
     margin-top: 0;
     z-index: -1;
 } 
-.tparrows.preview4:after {
+.tparparallax-section-6s.preview4:after {
     background: #fff;
     background: rgba(255,255,255,.05);
 }
+
 .tp-caption a {
     color: #fff;
     padding: 9px 22px;
@@ -627,6 +630,83 @@ nav {
     margin-left: 3px;
     margin-top: -3px;
 }
+
+/*Header Icons*/
+.navbar-default .navbar-right {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color:#1C1C1C;
+    font-weight: 700;
+    text-transform: uppercase;
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.navbar-alt .navbar-right {
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+.navbar-small .navbar-right {
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+} 
+.navbar-alt .navbar-nav > li > a,
+.navbar-alt .navbar-nav > li > span {
+    color: #fff;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.navbar-alt-mi .navbar-nav > li > a,
+.navbar-alt-mi .navbar-nav > li > span {
+    color: #1C1C1C;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.navbar-small .navbar-nav > li > a,
+.navbar-small .navbar-nav > li > span {
+    color: #1C1C1C; 
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.navbar-nav>li>a,
+.navbar-nav>li>span {
+    margin-top: 3px;
+    padding-top: 16px;
+    padding-bottom: 13px;
+}
+.nav>li>a,
+.nav>li>span {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.nav > li > span {
+    position: relative;
+    display: block; 
+    cursor: pointer;
+}
+.navbar-nav .caret {
+    margin-left: 3px;
+    margin-top: -3px;
+}
+
 /*Navbar Toggle*/
 .navbar-default .navbar-toggle {
     position: relative;
@@ -1088,6 +1168,95 @@ nav {
     font-size: 18px;
     margin-top: 0px;
 }
+/*----- Features for more Sponsor Page-----*/
+#features_sponsor {
+    padding-top: 50px;
+    padding-bottom:20px;
+}
+@media (min-width: 992px) {
+    .features-sponsor-row {
+        margin-bottom: 70px;
+        text-align: left
+    }
+    .feature-sponsor-column {
+        margin-bottom: 0px;
+    }
+    .back-icon {
+        z-index: -1;
+        color: #fafafa;
+        position: absolute;
+        padding-left: 40px;
+        left: 3;
+        top: 0;
+        width: 175px;
+        height: 155px;
+        line-height: 134px;
+        font-size: 134px;
+    }
+}
+@media (max-width: 992px) {
+    .feature-sponsor-column {
+        margin-bottom: 15px;
+    }
+    .back-icon {
+        z-index: -1;
+        color: #f8f8f8;
+        position: absolute;
+        padding-left: 30px;
+        left: 0;
+        top: 0;
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+        font-size: 100px;
+    }
+}
+.feature-sponsor-info h4 {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1c1c1c;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 24px;
+    margin-top: 0px;
+    
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.feature-sponsor-icon {
+    float: left;
+}
+.feature-sponsor-info {
+    /*padding-left: px;*/
+    padding-top: 5px;
+}
+.feature-sponsor-description {
+    line-height: 23px;
+    font-size: 20px;
+    color: #5A5A5A;
+    
+}
+.ion-2-5x {
+    font-size: 2.5em;
+}
+.feature-sponsor-buttons {
+    margin-top: 40px;
+}
+
+.description{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1c1c1c;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 50px;
+    margin-top: 0px;
+}
+
 /*----- About Section -----*/
 #about {
     padding-top: 60px;
@@ -1771,9 +1940,10 @@ blockquote strong {
 }
 
 /*----- Price List -----*/
+/*Indentation for Sponsor Packages spaces*/
 #price-list {
-    padding-top: 75px;
-    padding-bottom: 75px; 
+    padding-top: 10px;
+    padding-bottom: 10px; 
 }
 @media (max-width:992px) {
     #price-list {
