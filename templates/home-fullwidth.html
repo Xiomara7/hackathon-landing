@@ -547,14 +547,14 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
-                        <form>
+                        <form action="/" method="POST">>
                             <div class="form-group">
                                 <label for="exampleInputName1">Name</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Full Name">
+                                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Full Name" name="Fullname">
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" name="Email">
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputFile">Resume</label>
@@ -563,12 +563,12 @@
                             </div>
                             <div class="radio">
                                 <label>
-                                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="female"> --- Female
+                                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="female" name="Gender"> --- Female
                                 </label>
                             </div>
                             <div class="radio">
                                 <label>
-                                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="male">  --- Male
+                                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="male" name="Gender">  --- Male
                                 </label>
                             </div>
                             <button type="submit" class="btn btn-default">Submit</button>
