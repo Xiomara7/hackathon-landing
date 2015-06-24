@@ -1,6 +1,6 @@
 import os
 from flask import Flask
-from flask import render_template, request, json, url_for
+from flask import render_template, request, json
 from flask.ext.sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
@@ -17,7 +17,7 @@ class Entry(db.Model):
     self.Email = Email
 
   def __repr__(self):
-    return "Información de - %s" % self.Fullname
+    return "Informacion de - %s" % self.Fullname
 
 @app.route('/', methods=["GET", "POST"])
 def form():
