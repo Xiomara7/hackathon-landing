@@ -225,7 +225,7 @@ p {
     background-image: url(../img/backgrounds/bg-home-fullscreen.jpg);
 } 
 #home-parallax-fullwidth {
-    background-image: url("../img/backgrounds/pilotoBackground.jpg");
+    background-image: url("../img/backgrounds/home_bacground2.jpg");
 }
 #home-landing {
     background-image: url(../img/backgrounds/bg-home-fullscreen.jpg);
@@ -1943,7 +1943,7 @@ blockquote strong {
 /*Indentation for Sponsor Packages spaces*/
 #price-list {
     padding-top: 10px;
-    padding-bottom: 10px; 
+    padding-bottom: 50px; 
 }
 @media (max-width:992px) {
     #price-list {
@@ -1971,16 +1971,35 @@ blockquote strong {
 .price-table .label {
     display: block;
     background: rgba(255,255,255,0.09);
-    color: #f0f0f0;
+    /*background-image: url("../img/backgrounds/silver_label.png");*/
+    color: #070707;
     padding-top: 27px;
     padding-bottom: 25px;
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 22px;
     letter-spacing: 2px;
     margin: 0px;
     border-radius: 0;
 }
+
+/*Different colors for the labels backgrounds*/
+.price-table .label-silver {
+    background: #e6e6e6;
+}
+
+.price-table .label-bronze {
+    background: #d7985b;
+}
+
+.price-table .label-gold {
+    background: #ffe65f;
+}
+
+.price-table .label-platinum {
+    background: #89877d;
+}
+/*--------------------------------------------*/
 .price-table {
     border: 1px solid rgba(255,255,255,0.5);
 }
@@ -2374,6 +2393,16 @@ border-bottom:1px dotted #ccc;
 }
 .contact-details-social li a {
     color: #7a7a7a;
+}
+
+/*Contact for Sponsor page*/
+.contact-sponsor-description {
+    line-height: 23px;
+    font-size: 20px;
+    color: #000000;
+    margin-top:30px;
+    margin-bottom: 40px;
+    
 }
 
 /*----- Google maps -----*/
