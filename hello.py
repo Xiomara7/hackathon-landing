@@ -1,6 +1,6 @@
 import os
 from flask import Flask
-from flask import render_template, request, json
+from flask import render_template, request, json, url_for
 from flask.ext.sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
@@ -42,6 +42,11 @@ def form():
       db.session.commit()
 
     return render_template("thanks.html")
+
+@app.route('/more-info', methods=["GET", "POST"])
+def sponsors():
+  if request.method == 'GET':
+    return render_template('more-info.html')
 
 if __name__ == '__main__':
 	app.run()
