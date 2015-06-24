@@ -11,29 +11,29 @@ class Entry(db.Model):
   id = db.Column(db.Integer, primary_key=True)
   Fullname = db.Column(db.String(60))
   Email = db.Column(db.String(60), unique=True)
-  Gender = db.Column(db.String(1))
 
-  def __init__(self, Fullname, Email, Gender):
-    self.Gender = Gender
+  def __init__(self, Fullname, Email):
     self.Fullname = Fullname
     self.Email = Email
 
   def __repr__(self):
-    return "Contestacion de - %s" % self.Fullname
+    return "Información de - %s" % self.Fullname
 
 @app.route('/', methods=["GET", "POST"])
 def form():
   if request.method == 'GET':
     return render_template('home-fullwidth.html')
   elif request.method == 'POST':
+    print 'Es un post'
     args = {}
     # Get form parameters
-    getGender = request.form.get('Gender', '')
+    getEmail = request.form.get('Email', '')
+
+    print getEmail
 
     # Anadir la entrada solamente si no existe
-    previousEntry = Entry.query.filter_by(Gender=getGender).first()
+    previousEntry = Entry.query.filter_by(Email=getEmail).first()
     if previousEntry is None:
-      args["Gender"] = getGender
       args["Fullname"] = request.form.get("Fullname", "n/a")
       args["Email"] = request.form.get("Email", "n/a")
     
