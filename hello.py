@@ -1,6 +1,6 @@
 import os
 from flask import Flask
-from flask import render_template, request, json, flash
+from flask import render_template, request, json
 from flask.ext.sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
@@ -10,7 +10,7 @@ db = SQLAlchemy(app)
 class Entry(db.Model):
   id = db.Column(db.Integer, primary_key=True)
   Fullname = db.Column(db.String(60))
-  Email = db.Column(db.String(60))
+  Email = db.Column(db.String(60), unique=True)
 
   def __init__(self, Fullname, Email):
     self.Fullname = Fullname
@@ -41,12 +41,7 @@ def form():
       db.session.add(entry)
       db.session.commit()
 
-      flash('Thanks! We will be in touch with you soon!')
-
-    #return render_template('home-fullwidth.html')
-    else:
-      flash('You are already in our list! We will contact you soon!')
-    #return render_template('home-fullwidth.html')
+    return render_template("thanks.html")
 
 @app.route('/more-info', methods=["GET", "POST"])
 def sponsors():
