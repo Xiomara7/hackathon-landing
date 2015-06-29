@@ -242,10 +242,10 @@ p {
 .parallax-section-4 {
     background-image: url("../img/backgrounds/get_connected.JPG");
 }
-.parallax-section-5 {
+/*.parallax-section-5 {
     background-image: url(../img/backgrounds/get_connected.jpg);
-}
-.parallax-section-6 {
+}*/
+/*.parallax-section-6 {
     background-image: url("../img/backgrounds/get_connected.png");
 }
 .parallax-section-7 {
@@ -253,7 +253,7 @@ p {
 }
 .parallax-section-8 {
     background-image: url(../img/backgrounds/get_connected.jpg);
-}
+}*/
 
 /*----- Home Sections -----*/
 #home-parallax-fullscreen,
