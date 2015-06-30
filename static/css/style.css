@@ -242,13 +242,13 @@ p {
 .parallax-section-4 {
     background-image: url("../img/backgrounds/get_connected.JPG");
 }
-/*.parallax-section-5 {
-    background-image: url(../img/backgrounds/get_connected.jpg);
-}*/
-/*.parallax-section-6 {
-    background-image: url("../img/backgrounds/get_connected.png");
+.parallax-section-5 {
+    background-image: url("../img/backgrounds/dark_gray.png");
 }
-.parallax-section-7 {
+.parallax-section-6 {
+    background-image: url("../img/backgrounds/dark_gray.jpg");
+}
+/*.parallax-section-7 {
     background-image: url(../img/backgrounds/get_connected.jpg);
 }
 .parallax-section-8 {
