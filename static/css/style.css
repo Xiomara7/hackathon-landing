@@ -280,7 +280,7 @@ p {
 }
 
 #home-parallax-fullwidth {
-    background-position: center 0%;
+  background-position: center 0%;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -292,7 +292,7 @@ p {
 	vertical-align: middle;
 	z-index: 1;
 }
-@media (min-width:768px) {
+@media (min-width:920px) {
     #home-parallax-fullwidth {
         height: 600px;
     }
@@ -302,6 +302,7 @@ p {
         height: 400px;
     }
 }
+
 #home-parallax-fullscreen:after,
 .parallax-section-1:after,
 .parallax-section-2:after,
@@ -476,7 +477,6 @@ p {
     transform: translateY(0px);
     /*-webkit-transition: 1s opacity ease-in-out;*/
 }
-
 
 .tp-banner-container{
 	width:100%;
@@ -3307,12 +3307,3 @@ ul.caret-list li:before {
     border-color: #f0f0f0;
     background-color: transparent;
 }
-
-
-
-
-
-
-
-
-
