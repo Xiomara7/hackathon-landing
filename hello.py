@@ -11,6 +11,7 @@ class Entry(db.Model):
   id = db.Column(db.Integer, primary_key=True)
   Fullname = db.Column(db.String(60))
   Email = db.Column(db.String(60), unique=True)
+  Size = db.Column(db.String(10))
 
   def __init__(self, Fullname, Email):
     self.Fullname = Fullname
@@ -36,7 +37,7 @@ def form():
     if previousEntry is None:
       args["Fullname"] = request.form.get("Fullname", "n/a")
       args["Email"] = request.form.get("Email", "n/a")
-    
+
       entry = Entry(args["Fullname"], args["Email"])
       db.session.add(entry)
       db.session.commit()

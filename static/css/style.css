@@ -222,13 +222,13 @@ p {
 /*----- Backgrounds ------*/
 
 #home-parallax-fullscreen {
-    background-image: url(../img/backgrounds/pilotoBackground.jpg);
+    background-image: url(../img/backgrounds/fashion.jpg);
 }
 #home-parallax-fullwidth {
-    background-image: url("../img/backgrounds/pilotoBackground.jpg");
+    background-image: url("../img/backgrounds/fashion.jpg");
 }
 #home-landing {
-    background-image: url(../img/backgrounds/pilotoBackground.jpg);
+    background-image: url(../img/backgrounds/fashion.jpg);
 }
 .parallax-section-1 {
     background-image: url(../img/backgrounds/get_connected.jpg);
@@ -370,6 +370,13 @@ p {
 #home-parallax-fullscreen {
 	display: table;
 }
+
+#mc_embed_signup {
+    background:#fff;
+    clear:left;
+    font:14px Helvetica,Arial,sans-serif;
+}
+
 .home-container {
 	position: relative;
 	display: table-cell;
