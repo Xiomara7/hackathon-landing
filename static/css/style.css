@@ -233,9 +233,9 @@ p {
 .parallax-section-1 {
     background-image: url(../img/backgrounds/get_connected.jpg);
 }
-.parallax-section-2 {
+/*.parallax-section-2 {
     background-image: url(../img/backgrounds/get_connected.jpg);
-}
+}*/
 .parallax-section-3 {
     background-image: url("../img/backgrounds/backgroundMorro.jpg");
 }
