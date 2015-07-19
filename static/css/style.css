@@ -1094,7 +1094,7 @@ nav {
 }
 @media (min-width: 992px) {
     .features-row {
-        margin-bottom: 70px;
+        margin-bottom: 30px;
         text-align: left
     }
     .feature-column {
@@ -1155,7 +1155,7 @@ nav {
 .feature-description {
     line-height: 23px;
     padding-right: 10px;
-    color: #5A5A5A;
+    color: #000000;
 
 }
 .ion-2-5x {
