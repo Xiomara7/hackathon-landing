@@ -222,13 +222,13 @@ p {
 /*----- Backgrounds ------*/
 
 #home-parallax-fullscreen {
-    background-image: url(../img/backgrounds/home_bacground4.2.jpg);
+    background-image: url(../img/backgrounds/home_background4.2.jpg);
 }
 #home-parallax-fullwidth {
-    background-image: url("../img/backgrounds/home_bacground4.2.jpg");
+    /*background-image: url("../img/backgrounds/home_background4.2.jpg");*/
 }
 #home-landing {
-    background-image: url(../img/backgrounds/home_bacground4.2.jpg);
+    background-image: url(../img/backgrounds/home_background4.2.jpg);
 }
 .parallax-section-1 {
     background-image: url(../img/backgrounds/get_connected.jpg);
