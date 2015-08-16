@@ -79,8 +79,8 @@
 .cbp .cbp-item {
     z-index: 2;
     display: block;
-    width: 300px; /* default width for blocks */
-    height: 200px; /* default height for blocks */
+    width: 200px; /* default width for blocks */
+    height: 100px; /* default height for blocks */
 }
 
 .cbp-item-wrapper {
@@ -2957,8 +2957,8 @@
     opacity: 0;
 
     /* @editable properties */
-     
-    
+
+
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
 }
