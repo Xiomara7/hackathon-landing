@@ -130,9 +130,7 @@ p {
 }
 .subheading {
     font-size: 18px;
-    line-height: 20px;
     font-weight: 100;
-    margin-bottom: 22px;
 }
 .subheading:after {
     position: relative;
@@ -1529,7 +1527,7 @@ nav {
 }
 
 /*-- Sponsor Sections --*/
-.partnership_titles { 
+.partnership_titles {
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     text-align: left;
@@ -1538,7 +1536,7 @@ nav {
     color: black;
 }
 
-.partnership_list { 
+.partnership_list {
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     text-align: left;
@@ -1546,7 +1544,7 @@ nav {
     color: black;
 }
 
-.partnership_list_last { 
+.partnership_list_last {
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     text-align: left;
