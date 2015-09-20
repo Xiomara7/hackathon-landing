@@ -45,10 +45,10 @@
 
                             <li class="to-top"> <a href="#">Home </a></li>
                             <li class="to-section"><a href="#features"> About </a></li>
-                            <!--
-                            <li class="to-section"><a href="#about"> Location </a></li>
-                            <li class="to-section"><a href="#prizes"> Prizes </a></li>
-                            <li class="to-section"><a href="#prizes"> FAQ </a></li>-->
+                            
+                            <li class="to-section"><a href="#location"> Location </a></li>
+<!--                             <li class="to-section"><a href="#prizes"> Prizes </a></li>
+                            <li class="to-section"><a href="#prizes"> FAQ </a></li> -->
                             <li class="to-section"><a href="#sponsors"> Sponsors </a></li>
                             <li class="to-section"><a href="#get-connected"> Contact Us </a></li>
                             <li><a class="social-icon" href="https://twitter.com/IncludeGirls"><i class="icon icon-social-twitter"></i></a></li>
@@ -162,7 +162,7 @@
 
                           <div class="feature-info">
                               <h4>Do you give travel reimbursement?</h4>
-                              <p class="feature-description">Unfortunately, we’re not offering any travel reimbursement for people outside Puerto Rico at the moment. We will make an announcement if we’re able to offer any in the near future. </a></p>
+                              <p class="feature-description">Unfortunately, we’re not offering any travel reimbursement for people outside Puerto Rico at the moment. </a></p>
                           </div>
                       </div>
 
@@ -177,18 +177,6 @@
                               <p class="feature-description">If you’re going to participate in the hackathon, you can stay over. If you want, you can bring a sleeping bag, air mattress, pillows, etc. We will provide rooms for the participants that would like to rest.</a></p>
                           </div>
                       </div>
-
-                      <!--
-                       <div class="col-md-4 col-sm-12 feature-column">
-                          <div class="feature-icon">
-                              <img src="../static/img/portfolio/buttons/teams_icon_mini.png" class="icon-laptop size-2x" > </img>
-                              <img src="../static/img/portfolio/buttons/teams_iconBig.png" class="icon-laptop back-icon"></img>
-                          </div>
-                          <div class="feature-info">
-                              <h4>Can I have teamates?</h4>
-                              <p class="feature-description">The teams can have from 2 to 4 members. Since we're trying to promote women to participate the teams MOST have at least 1 woman. Each team must bring their own computers. Teams are recommended to have at least 1 programmer, but it’s not mandatory.</p>
-                          </div>
-                      </div> -->
                       <div class="col-md-4 col-sm-12 feature-column">
                           <div class="feature-icon">
                               <img src="../static/img/portfolio/buttons/ticket2__mini_icon.png" class="icon-laptop size-2x" > </img>
@@ -196,7 +184,7 @@
                           </div>
                           <div class="feature-info">
                               <h4>Is the admission free?</h4>
-                              <p class="feature-description">For the students that are planning to come to the Job Fair and the Hackathon, the admission is free and it includes the Fashion Show. </p>
+                              <p class="feature-description">For the students that are planning to come to the Job Fair and the Hackathon, the admission is free. </p>
                           </div>
                       </div>
 
@@ -204,93 +192,69 @@
                 </div>
           </section><hr>
           <!--End Features Section -->
-            <!-- Start Skills Section -->
-            <!-- <section id="skills" class="parallax-section-2">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4 col-sm-12 skills-row">
-                            <h4 class="content-title white wow fadeInUp">By the numbers</h4>
-                            <p class="p-info grey wow fadeInUp">Proin commodo eu ipsum eu suscipit. In dapibus arcu sit amet imperdiet posuere. Praesent condimentum nulla at mauris ornare, eget consequat felis euismod.</p>
-                            <p class="p-info grey wow fadeInUp">Vivamus a placerat ante. Duis vulputate nibh sit amet augue vehicula, mattis viverra purus tristique. Integer lobortis erat in placerat fermentum. Sed luctus varius leo ac posuere. Integer eget est vitae dolor. Duis vulputate nibh sit amet augue vehicula, mattis viverra purus tristique. Proin commodo eu ipsum eu suscipit. </p>
-                        </div>
 
-                        <div class="col-md-8 col-sm-12 wow fadeInUp">
-                            <div class="progress-bars">
-                                <p>Registered</p>
-                                <div class="progress" data-percent="85%">
-                                    <div class="progress-bar">
-                                        <span class="progress-bar-tooltip">85%</span>
-                                    </div>
-                                </div>
-                                <p>Male</p>
-                                <div class="progress" data-percent="100%">
-                                    <div class="progress-bar progress-bar-primary">
-                                        <span class="progress-bar-tooltip">100%</span>
-                                    </div>
-                                </div>
-                                <p>Female</p>
-                                <div class="progress" data-percent="70%">
-                                    <div class="progress-bar progress-bar-primary">
-                                        <span class="progress-bar-tooltip">70%</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+            <!-- Start of Map Section  -->
+            <section id="location">
+            <div class = "row map-row wow fadeInUp ">
+              <div class="col-md-6 col-sm-12 info-map">
+                <section id = "address">
+                 <h3>Location: </h3>
+                 <img src="../static/img/backgrounds/piloto151.jpg" class="place img-responsive"></img>
+                 <h4 class="highlight">Piloto 151</h4> 
+                 #151, Calle San Francisco, San Juan, 00901
+                </section>
+              </div>
 
-                    </div>
-                </div>
-            </section> -->
-            <!-- End Skills Section -->
+              <div class="col-md-6 col-sm-12 info-map"> 
+              <section id = "map">                  
+                  <script src="https://maps.googleapis.com/maps/api/js"></script>
+                    <script>function initialize() {
+                      var mapCanvas = document.getElementById('map');
+                      var mapOptions = {
+                        center: new google.maps.LatLng(18.4654238, -66.1170117),
+                        zoom: 15,
+                        mapTypeId: google.maps.MapTypeId.ROADMAP
+                      }
+                      var map = new google.maps.Map(mapCanvas, mapOptions)
 
-            <!-- Start Fun Facts Section -->
-           <!-- <section id="fun-facts">
-                <div class="container">
-
-                    <div class="counter-row row text-center wow fadeInUp">
-                        <div class="col-md-3 col-sm-6 fact-container">
-                            <div class="fact">
-                                <span class="counter highlight">98</span>
-                                <h4>Total Registered</h4>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6 fact-container">
-                            <div class="fact">
-                                <span class="counter highlight">45</span>
-                                <h4>Female</h4>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6 fact-container">
-                            <div class="fact">
-                                <h2 class="highlight">Hundreds</h2>
-                                <h4>Algo aqui, que estemos contando</h4>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6 fact-container">
-                            <div class="fact">
-                                <span class="counter highlight">10</span>
-                                <h4>Teams</h4>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </section> -->
-            <!-- End Fun Facts Section -->
+                      var marker = new google.maps.Marker({
+                      position:new google.maps.LatLng(18.4654238, -66.1170117),
+                      map: map
+                      });
+                    }
+                    google.maps.event.addDomListener(window, 'load', initialize);
+                  </script>
+                </section>
+              </div>
+            </div>
+          </section>
+            <!-- End of Map Section -->
 
             <!-- Start About Section -->
             <section>
               <div class="container">
                 <div class="row">
-                  <div class="text-center">
-                    <h3>Categories</h3>
-                      <h4 class="highlight">Best Tech + Fashion</h4>
-                      <p>The best integration between technology and fashion</p>
-                      <h4 class="highlight">Best Job Related Hack</h4>
-                      <p>Any hack related to job searching / job matching</p>
-                      <h4 class="highlight">Best Diversity Hack</h4>
-                      <p>#EverythingDiversity</p>
-                      <h4 class="highlight">Favorite Hack</h4>
-                      <p>3 Points: Creative - Technically Challenging - Innovative</p>
+                <div class="col-md-6 col-sm-12 eventsAndCat">
+                  <h3>Description of each section: </h3>
+                  <h4 class="highlight">Job Fair</h4>
+                  <p> There will be a section in both Saturday and Sunday where the companies
+                    will be networking with the participants and looking at their resumes.</p>
+                  <h4 class="highlight">Hackathon</h4>
+                  <p> Join a team to work in a project for 24 hours in our event. It doesn't matter if you don't know how to code, the main idea here is to learn from others. </p>
+                  <h4 class="highlight">Fashion Show</h4>
+                  <p> The fashion section, which is being organized by the designer Beatriz Rodriguez, will have models posing as mannequin where they will be showing the designers' clothes and accessories. </p>
+                  
+                </div>
+                  <div class="col-md-6 col-sm-12 eventsAndCat" >
+                      <h3>Categories</h3>
+                        <h4 class="highlight">Best Tech + Fashion</h4>
+                        <p>The best integration between technology and fashion.</p>
+                        <h4 class="highlight">Best Job Related Hack</h4>
+                        <p>Any hack related to job searching / job matching.</p>
+                        <h4 class="highlight">Best Hardware Hack</h4>
+                        <p>The best integration of hardware with software.</p>
+                        <h4 class="highlight">Favorite Hack</h4>
+                        <p>3 Points: Creative - Technically Challenging - Innovative</p>
                   </div>
                 </div>
               </div>
@@ -317,7 +281,7 @@
                                     <blockquote>
                                         <i class="icon-left ion-quote ion-2x highlight"></i>
                                             <span>
-                                                A Perfect Design is made with Passion, Dedication,<br> and a lots of Coffee!
+                                                A Perfect Design is made with Passion, Dedication,<br> and lots of Coffee!
                                             </span>
                                         <i class="icon-right ion-quote ion-2x highlight"></i>
                                     </blockquote>
@@ -427,7 +391,8 @@
                             </div>
                         </form>
                     </div>
-                    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[3]='MMERGE3';ftypes[3]='number';fnames[6]='MMERGE6';ftypes[6]='dropdown';fnames[5]='MMERGE5';ftypes[5]='dropdown';fnames[4]='MMERGE4';ftypes[4]='imageurl';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+                    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[3]='MMERGE3';ftypes[3]='number';fnames[6]='MMERGE6';ftypes[6]='dropdown';fnames[5]='MMERGE5';ftypes[5]='dropdown';fnames[4]='MMERGE4';ftypes[4]='imageurl';}(jQuery));var $mcj = jQuery.noConflict(true);
+                    </script>
 <!--End mc_embed_signup-->
 
                   </div>
@@ -496,19 +461,6 @@
                                 </div>
                             </li>
 
-                            <li class="cbp-item effect effects partner">
-                                <div class="img">
-                                    <img src="../static/img/portfolio/pl-logo.jpg" class="img-responsive" alt="" />
-                                    <div class="overlay">
-                                        <ul class="expand">
-                                            <li class="cbp-l-caption-title">Piloto Labs</li>
-                                            <li class="cbp-l-caption-desc">Community based non-profit organization.</li>
-                                            <li class="cbp-l-icon"><a href="http://www.piloto151.com/programs/" ><i class="icon-link"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </li>
-
                             <li class="cbp-item effect effects hackathon job">
                                 <div class="img">
                                     <img src="../static/img/portfolio/ww-logo.png" class="img-responsive" alt="" />
@@ -521,6 +473,7 @@
                                     </div>
                                 </div>
                             </li>
+
                             <li class="cbp-item effect effects hackathon">
                                 <div class="img">
                                     <img src="../static/img/portfolio/npm-logo.jpg" class="img-responsive" alt="" />
@@ -534,14 +487,14 @@
                                 </div>
                             </li>
 
-                            <li class="cbp-item effect effects fashion">
+                            <li class="cbp-item effect effects job">
                                 <div class="img">
-                                    <img src="../static/img/portfolio/beatriz.jpg" class="img-responsive" alt="" />
+                                    <img src="../static/img/portfolio/axon-logo.png" class="img-responsive" alt="" />
                                     <div class="overlay">
                                         <ul class="expand">
-                                            <li class="cbp-l-caption-title">Beatriz Rodriguez</li>
-                                            <li class="cbp-l-caption-desc">Fashion Designer</li>
-                                            <li class="cbp-l-icon"><a href="http://beatrizrodriguezfashion.com/2015/02/03/thedesigner/"><i class="icon-link"></i></a></li>
+                                            <li class="cbp-l-caption-title">Axon PR</li>
+                                            <li class="cbp-l-caption-desc">Software Company</li>
+                                            <li class="cbp-l-icon"><a href="http://axonpr.com"><i class="icon-link"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -572,6 +525,45 @@
                                     </div>
                                 </div>
                             </li>
+
+                            <li class="cbp-item effect effects partner">
+                                <div class="img">
+                                    <img src="../static/img/portfolio/pl-logo.jpg" class="img-responsive" alt="" />
+                                    <div class="overlay">
+                                        <ul class="expand">
+                                            <li class="cbp-l-caption-title">Piloto Labs</li>
+                                            <li class="cbp-l-caption-desc">Community based non-profit organization.</li>
+                                            <li class="cbp-l-icon"><a href="http://www.piloto151.com/programs/" ><i class="icon-link"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="cbp-item effect effects hackathon">
+                                <div class="img">
+                                    <img src="../static/img/portfolio/twitter-logo.png" class="img-responsive" alt="" />
+                                    <div class="overlay">
+                                        <ul class="expand">
+                                            <li class="cbp-l-caption-title">Twitter</li>
+                                            <li class="cbp-l-caption-desc">Software Company</li>
+                                            <li class="cbp-l-icon"><a href="http://twitter.com"><i class="icon-link"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="cbp-item effect effects fashion">
+                                <div class="img">
+                                    <img src="../static/img/portfolio/beatriz.jpg" class="img-responsive" alt="" />
+                                    <div class="overlay">
+                                        <ul class="expand">
+                                            <li class="cbp-l-caption-title">Beatriz Rodriguez</li>
+                                            <li class="cbp-l-caption-desc">Fashion Designer</li>
+                                            <li class="cbp-l-icon"><a href="http://beatrizrodriguezfashion.com/2015/02/03/thedesigner/"><i class="icon-link"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+
                             <li class="cbp-item effect effects fashion">
                                 <div class="img">
                                     <img src="../static/img/portfolio/keznr-logo.png" class="img-responsive" alt="" />
@@ -598,18 +590,6 @@
                                 </div>
                             </li>
 
-                            <li class="cbp-item effect effects hackathon">
-                                <div class="img">
-                                    <img src="../static/img/portfolio/twitter-logo.png" class="img-responsive" alt="" />
-                                    <div class="overlay">
-                                        <ul class="expand">
-                                            <li class="cbp-l-caption-title">Twitter</li>
-                                            <li class="cbp-l-caption-desc">Software Company</li>
-                                            <li class="cbp-l-icon"><a href="http://twitter.com"><i class="icon-link"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </li>
                             <li class="cbp-item effect effects partner">
                                 <div class="img">
                                     <img src="../static/img/portfolio/devtitans-logo.jpg" class="img-responsive" alt="" />
@@ -622,18 +602,6 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="cbp-item effect effects job">
-                                <div class="img">
-                                    <img src="../static/img/portfolio/axon-logo.png" class="img-responsive" alt="" />
-                                    <div class="overlay">
-                                        <ul class="expand">
-                                            <li class="cbp-l-caption-title">Axon PR</li>
-                                            <li class="cbp-l-caption-desc">Software Company</li>
-                                            <li class="cbp-l-icon"><a href="http://axonpr.com"><i class="icon-link"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </li>
                               <!--
 
                             -->
@@ -641,29 +609,6 @@
                         </ul>
                     </div>
                     <br>
-                    <!--<div class= "partnership_titles">
-                      <div class="row">
-                        <div class="col-md-2"><img src="../static/img/portfolio/twitter-logo.png"></div>
-                        <div class="col-md-2">
-                          <a href="http://www.twitter.com">Twitter</a>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-md-2"><img src="../static/img/portfolio/devtitans-logo.png"></div>
-                        <div class="col-md-2">
-                          <a href="http://www.devtitans.net">DevTitans</a>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-md-2"><img src="../static/img/portfolio/e4-logo.png"></div>
-                        <div class="col-md-2">
-                          <a href="http://engine-4.com/">Engine 4</a>
-                        </div>
-                      </div>
-                    </div>
-                    <a href="more-info" class="btn btn-primary btn-scroll">See more info!</a>
-                    <br><br>
-                </div>-->
             </section>
             <!-- End Portfolio Section --><br>
 

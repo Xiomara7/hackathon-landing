@@ -28,6 +28,7 @@ Table of Contents:
 23) Footer 1
 24) Subscribe Form - Twitter Feed
 25) Shortcodes
+26) Map
 
 ------------------------------------------------------------------------------*/
 
@@ -3340,3 +3341,47 @@ ul.caret-list li:before {
     border-color: #f0f0f0;
     background-color: transparent;
 }
+
+/* 26) Map */
+.info-map {
+    margin-bottom: 0px;
+    text-align: center;
+}
+.place {
+    width: 500px;
+    height: 280px;
+}
+
+#address{    
+    padding-left: 55px;
+    padding-top: 5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+ #map{
+    padding-right: 10px;
+    padding-left: 30px;
+    height: 480px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 992px) {
+    .row-map{
+        margin-bottom: 30px;
+        text-align: left
+    }
+    .info-map {
+    margin-bottom: 0px;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .info-map {
+    margin-bottom: 0px;
+    }
+}
+
