@@ -236,7 +236,7 @@ p {
     background-image: url(../img/backgrounds/get_connected.jpg);
 }*/
 .parallax-section-3 {
-    background-image: url("../img/backgrounds/backgroundMorro.jpg");
+    background-image: url("../img/backgrounds/include_athon11.jpg");
 }
 .parallax-section-4 {
     background-image: url("../img/backgrounds/get_connected.JPG");
@@ -755,7 +755,9 @@ nav {
   border-radius: 2px;
 }
 /*Navbar Collapse Menu*/
+/* Main Menu*/
 .navbar-collapse {
+    font-size: 150%;    
 	padding-right: 0px;
 	padding-left: 0px;
 	color: #3a3a3a;
@@ -1082,14 +1084,15 @@ nav {
     font-size: 18px;
 }
 .navbar .social-icon {
+    size: 20px;
     padding-left: 15px;
     padding-right: 0;
 }
 
 /*----- Features -----*/
 #features {
-    padding-top: 90px;
-    padding-bottom: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 @media (min-width: 992px) {
     .features-row {
@@ -1263,13 +1266,14 @@ nav {
     margin-top: 0px;
 }
 
+
 /*----- About Section -----*/
 #about {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .about-text {
-    margin-top: 20px;
+    margin-top: 5px;
     padding-right: 60px;
 }
 #about p {
