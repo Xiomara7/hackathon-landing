@@ -99,8 +99,9 @@ a:focus, a:active, button::-moz-focus-inner, input[type="reset"]::-moz-focus-inn
     float: left;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
+	/*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
 	line-height: 1;
     color: #1c1c1c;
 }
@@ -224,7 +225,7 @@ p {
     background-image: url(../img/backgrounds/home_background4.2.jpg);
 }
 #home-parallax-fullwidth {
-    background-image: url("../img/backgrounds/include_athon11.jpg");
+    background-image: url("../img/backgrounds/include_athon11.png");
 }
 #home-landing {
     background-image: url(../img/backgrounds/home_background4.2.jpg);
@@ -236,10 +237,10 @@ p {
     background-image: url(../img/backgrounds/get_connected.jpg);
 }*/
 .parallax-section-3 {
-    background-image: url("../img/backgrounds/include_athon18.jpg");
+    background-image: url("../img/backgrounds/include_athon18.png");
 }
 .parallax-section-4 {
-    background-image: url("../img/backgrounds/get_connected.JPG");
+    background-image: url("../img/backgrounds/get_connected.png");
 }
 /*.parallax-section-5 {
     background-image: url("../img/backgrounds/dark_gray.png");
@@ -294,7 +295,7 @@ p {
 }
 @media (min-width:920px) {
     #home-parallax-fullwidth {
-        height: 600px;
+        height: 100%;
     }
 }
 @media (max-width:768px) {
@@ -758,7 +759,7 @@ nav {
 /*Navbar Collapse Menu*/
 /* Main Menu*/
 .navbar-collapse {
-    font-size: 150%;    
+    font-size: 90%;    
 	padding-right: 0px;
 	padding-left: 0px;
 	color: #3a3a3a;
@@ -1134,11 +1135,11 @@ nav {
     }
 }
 .feature-info h4 {
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Quicksand',sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     color: #1c1c1c;
-    font-weight: 700;
+    font-weight: 700 !important;
     letter-spacing: 1px;
     font-size: 18px;
     margin-top: 0px;
@@ -1571,7 +1572,7 @@ nav {
     position: relative;
     display: block;
     line-height: 1.5;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -2829,14 +2830,14 @@ footer a:hover {
 .btn-info,
 .btn-warning,
 .btn-danger {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    border: none;
+    /*border: none;*/
     border-radius: 4px;
     color: #fff;
     cursor: pointer;
@@ -2847,10 +2848,10 @@ footer a:hover {
     padding: 10px 22px;
     text-align: center;
 
-    box-shadow: 0 -3px rgba(0, 0, 0, 0.3) inset;
+/*    box-shadow: 0 -3px rgba(0, 0, 0, 0.3) inset;
     -moz-box-shadow: 0 -3px rgba(0, 0, 0, 0.3) inset;
     -webkit-box-shadow: 0 -3px rgba(0, 0, 0, 0.3) inset;
-    -o-box-shadow: 0 -3px rgba(0, 0, 0, 0.3) inset;
+    -o-box-shadow: 0 -3px rgba(0, 0, 0, 0.3) inset;*/
 
     -webkit-transition: all ease .3s;
     -moz-transition: all ease .3s;

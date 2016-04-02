@@ -1,8 +1,8 @@
 ::-moz-selection {
-    background: #2ac5ee;
+    background: #35495c;
 }
 ::selection {
-	background: #2ac5ee;
+	background: #35495c;
 }
 
 
@@ -37,7 +37,7 @@
 .home-signin .btn-primary-full:hover,
 .cbp-l-loadMore-button .cbp-l-loadMore-button-link:hover
 {
-	background: #2ac5ee;
+	background: #35495c;
 }
 
 
@@ -92,13 +92,13 @@ footer #social-icons li a:hover,
 .cbp-item .img a,
 .section-links a:hover
  {
-	color: #2ac5ee;
+	color: #35495c;
 }
 
 .cbp-l-filters-alignRight .cbp-filter-counter:before,
 .cbp-l-filters-alignCenter .cbp-filter-counter:before,
 .cbp-l-filters-button .cbp-filter-counter:before {
-	border-top: 4px solid #2ac5ee;
+	border-top: 4px solid #35495c;
 }
 .btn-primary-full {
     box-shadow: 0 -3px rgba(0, 0, 0, 0.4) inset;
@@ -109,10 +109,10 @@ footer #social-icons li a:hover,
     background-color: rgba(42, 197, 238, 0.9);
 }
 .label-primary:after {
-    border-bottom-color: #2ac5ee;
+    border-bottom-color: #35495c;
 }
 .mega-menu .dropdown-menu {
-    border-bottom: 2px solid #2ac5ee;
+    border-bottom: 2px solid #35495c;
     border-top: none!important;
 }
 
@@ -120,11 +120,11 @@ footer #social-icons li a:hover,
 .btn-effect:focus,
 .btn-effect:active,
 .btn-effect:after {
-    background: #2ac5ee;
+    background: #35495c;
 }
 .btn-effect:hover {
     background: none; 
-    border-color: #2ac5ee;
+    border-color: #35495c;
     transition: all 0.4s;
 }
  
