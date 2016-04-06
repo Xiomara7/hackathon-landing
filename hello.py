@@ -44,10 +44,15 @@ def form():
 
     return render_template("thanks.html")
 
-@app.route('/more-info', methods=["GET", "POST"])
+# @app.route('/more-info', methods=["GET", "POST"])
+# def sponsors():
+#   if request.method == 'GET':
+#     return render_template('more-info.html')
+
+@app.route('/includeathon2015', methods=["GET", "POST"])
 def sponsors():
   if request.method == 'GET':
-    return render_template('more-info.html')
+    return render_template('2015_gallery.html')
 
 if __name__ == '__main__':
 	app.run()
