@@ -50,7 +50,7 @@ def form():
 #     return render_template('more-info.html')
 
 @app.route('/includeathon2015', methods=["GET", "POST"])
-def sponsors():
+def includeathon2015():
   if request.method == 'GET':
     return render_template('2015_gallery.html')
 
