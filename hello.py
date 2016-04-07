@@ -56,7 +56,7 @@ def sponsors():
 
 @app.route('/sponsor', methods=["GET", "POST"])
 def sponsors():
-  if request.method == 'GET':
+  if request.method == 'GET': 
     return render_template('sponsors.html')
 
 if __name__ == '__main__':
