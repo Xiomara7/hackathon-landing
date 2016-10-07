@@ -79,7 +79,7 @@
 .cbp .cbp-item {
     z-index: 2;
     display: block;
-    width: 100px; /* default width for blocks */
+    width: 50px; /* default width for blocks */
     height: 50px; /* default height for blocks */
 }
 
@@ -956,7 +956,7 @@
 
 .cbp-animation-boxShadow .cbp-item .cbp-animation-boxShadowMask.cbp-animation-boxShadowActive {
     /* @editable properties */
-    box-shadow: 0 0 100px 100px #fff inset;
+    box-shadow: 0 0 0px 0px #fff inset;
 }
 
 .cbp-animation-boxShadow .cbp-item .cbp-animation-boxShadowMask.cbp-animation-boxShadowInactive {
